@@ -6,6 +6,10 @@
     padding: 30px 100px 0 0;
 }
 
+nav img {
+    padding: 0 0 0 50px;
+}
+
 nav {
     background-image: url(./img/img1.svg);
     width: 100%;
@@ -35,15 +39,35 @@ nav h1 {
 body {
     width: 100%;
     background-image: url(./img/img2.svg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
 }
 
-@media (max-width: 853px) {
+aside h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    color: rgb(100, 15, 15);
+    font-weight: 800;
+    text-shadow: 0 0 20px black;
+}
+
+.img {
+    padding: 0 200px 0 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img img {
+    padding: 10px 0 50px 10px;
+}
+
+@media (max-width: 885px) {
     nav {
         display: flex;
         justify-content: center;
-        padding: -30px;
     }
 }
