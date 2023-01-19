@@ -72,12 +72,6 @@ footer h1 {
     text-align: center;
 }
 
-footer div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .tel {
     white-space: nowrap;
 }
