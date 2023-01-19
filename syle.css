@@ -70,13 +70,17 @@ footer h1 {
     font-size: 16px;
     text-align: center; }
 
-  aside img {
-    width: 350px;
-    height: 600px; }
+  aside {
+    width: 100%; }
+    aside img {
+      width: 350px;
+      height: 600px; }
 
   nav {
     display: flex;
     justify-content: center;
-    font-size: 16px; } }
+    font-size: 16px; }
+    nav .tel {
+      padding-inline-end: 10px; } }
 
 /*# sourceMappingURL=syle.css.map */
