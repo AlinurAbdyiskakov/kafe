@@ -13,7 +13,6 @@ nav img {
 nav {
     background-image: url(./img/img1.svg);
     width: 100%;
-    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -52,7 +51,6 @@ aside h1 {
     color: rgb(100, 15, 15);
     font-weight: 800;
     text-shadow: 0 0 20px black;
-    transform: scaleY(30px);
 }
 
 .img {
@@ -78,6 +76,10 @@ footer div {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.tel {
+    white-space: nowrap;
 }
 
 @media (max-width: 885px) {
