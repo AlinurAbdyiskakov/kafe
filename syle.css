@@ -52,6 +52,7 @@ aside h1 {
     color: rgb(100, 15, 15);
     font-weight: 800;
     text-shadow: 0 0 20px black;
+    transform: scaleY(30px);
 }
 
 .img {
