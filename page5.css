@@ -64,12 +64,13 @@ aside h1 {
     text-transform: uppercase;
     animation-name: t1;
     color: #FF0000;
+    margin-top: 20px;
 }
 
 aside img {
     width: 298px;
     height: 198px;
-    margin: 10px 10px;
+    margin: 20px 10px
 }
 
 .tol {

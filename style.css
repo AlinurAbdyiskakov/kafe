@@ -75,12 +75,13 @@ aside h1 {
     text-transform: uppercase;
     animation-name: t1;
     color: #FF0000;
+    margin-top: 20px;
 }
 
 aside img {
     max-width: 245px;
     max-height: 145px;
-    margin: 10px 10px;
+    margin: 20px 10px
 }
 
 @media (max-width: 885px) {

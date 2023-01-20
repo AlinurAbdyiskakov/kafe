@@ -45,6 +45,7 @@ aside {
     box-sizing: content-box;
     padding: 20px;
     min-height: 1000px;
+    margin-top: 20px;
 }
 
 aside #div1 {
@@ -69,7 +70,7 @@ aside h1 {
 aside img {
     width: 298px;
     height: 198px;
-    margin: 10px 10px;
+    margin: 20px 10px
 }
 
 .tol {
