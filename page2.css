@@ -64,6 +64,8 @@ aside h1 {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     animation-name: t1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     color: #FF0000;
 }
 

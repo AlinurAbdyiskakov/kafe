@@ -64,6 +64,8 @@ aside h1 {
     text-transform: uppercase;
     animation-name: t1;
     color: #FF0000;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     margin-top: 20px;
 }
 

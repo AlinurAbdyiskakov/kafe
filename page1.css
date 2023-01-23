@@ -64,6 +64,8 @@ aside h1 {
     animation-name: t1;
     color: #FF0000;
     margin-top: 20px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 aside img {
