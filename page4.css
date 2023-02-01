@@ -79,11 +79,13 @@ aside img {
     position: fixed;
     right: 20px;
     bottom: 40%;
+    z-index: 1;
 }
 
 .tol .home {
     width: 20px;
     height: 50px;
+    z-index: 1;
 }
 
 @media (max-width: 885px) {

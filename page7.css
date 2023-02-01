@@ -107,9 +107,11 @@ aside img {
     position: fixed;
     right: 20px;
     bottom: 40%;
+    z-index: 1;
 }
 
 .tol .home {
+    z-index: 1;
     width: 20px;
     height: 50px;
 }
