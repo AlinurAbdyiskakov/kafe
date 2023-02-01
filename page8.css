@@ -29,7 +29,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 24px;
     line-height: 40px;
     letter-spacing: -0.02em;
     text-shadow: 0 0 50px black;
@@ -106,6 +106,9 @@ aside h1 {
 }
 
 @media (max-width: 885px) {
+    aside {
+        font-size: 20px;
+    }
     header h1,
     h2 {
         font-size: 20px;

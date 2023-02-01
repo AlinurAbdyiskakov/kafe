@@ -1,3 +1,18 @@
+.list {
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 220px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    margin: 10px;
+    border-radius: 19px;
+    padding: 8px;
+}
+
 * {
     margin: 0;
 }
@@ -6,7 +21,7 @@ body {
     width: max-content;
     height: max-content;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 header {
@@ -37,71 +52,57 @@ h2 {
 
 aside {
     margin-top: -15px;
-    background-image: url(./img/img2.svg);
+    background-image: url(./page10/photo_2023-02-01_16-03-42.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
     height: auto;
     box-sizing: content-box;
     padding: 20px;
-    height: auto;
+    min-height: 1000px;
+    color: green;
 }
 
-#div1 {
+aside #div1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-#div1 img {
-    height: 189px;
-    width: 289px;
-}
-
-aside #div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-aside h1 {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-style: normal;
-    font-weight: 531;
-    font-size: 64px;
-    line-height: 75px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+#up {
     animation-name: t1;
-    color: #FF0000;
-    margin-top: 20px;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    font-size: 64px;
+    margin: 20px;
+    margin: 0 auto;
+    color: red;
+    box-shadow: 0 0 10px black;
+    text-align: center;
 }
 
-aside img {
-    max-width: 245px;
-    max-height: 145px;
-    margin: 20px 10px
+.list p {
+    margin-top: 10px;
+    color: blue;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tol {
+    position: fixed;
+    right: 20px;
+    bottom: 40%;
+}
+
+.tol .home {
+    width: 20px;
+    height: 50px;
 }
 
 @media (max-width: 885px) {
     header h1,
     h2 {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
-    footer h1 {
-        font-size: 30px;
-    }
-}
-
-footer #di {
-    box-sizing: content-box;
-    padding: 5px;
-    max-width: 600px;
-    margin: 0 auto;
 }
 
 @media (max-width: 345px) {
@@ -111,22 +112,5 @@ footer #di {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-    }
-}
-
-aside img {
-    width: 250px;
-    height: 149px;
-    box-sizing: content-box;
-}
-
-@media(max-width:500px) {}
-
-@keyframes t1 {
-    0% {
-        font-size: 30px;
-    }
-    100% {
-        font-size: 32px;
     }
 }
