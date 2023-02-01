@@ -97,6 +97,7 @@ aside .lesting p {
 }
 
 aside img {
+    box-sizing: content-box;
     width: 298px;
     height: 198px;
     margin: 20px 10px

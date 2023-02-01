@@ -114,6 +114,12 @@ footer #di {
     }
 }
 
+aside img {
+    width: 250px;
+    height: 149px;
+    box-sizing: content-box;
+}
+
 @keyframes t1 {
     0% {
         font-size: 30px;
