@@ -134,12 +134,12 @@ aside h1 {
     justify-content: center;
     background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 350px;
+    width: 340px;
     height: 320px;
     display: flex;
     flex-direction: column;
     font-weight: 700;
-    margin: 10px;
+    margin: 15px;
     border-radius: 19px;
     padding: 15px;
 }
