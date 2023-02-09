@@ -59,6 +59,13 @@ aside {
     z-index: 1;
 }
 
+@media (max-width:350px) {
+    aside {
+        max-width: 350px;
+        text-align: center;
+    }
+}
+
 .list p {
     margin-top: 10px;
     color: blue;
