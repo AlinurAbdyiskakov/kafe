@@ -40,7 +40,7 @@ header {
 
 header h1,
 h2 {
-    color: black;
+    color: rgb(247, 222, 3);
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -51,6 +51,7 @@ h2 {
 }
 
 aside {
+    background-position: center;
     margin-top: -15px;
     background-image: url(./img/img2.svg);
     background-repeat: no-repeat;

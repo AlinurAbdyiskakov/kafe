@@ -51,6 +51,7 @@ h2 {
 }
 
 aside {
+    background-position: center;
     margin-top: -15px;
     background-image: url(./page10/photo_2023-02-01_16-03-42.jpg);
     background-repeat: no-repeat;
