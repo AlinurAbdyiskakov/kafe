@@ -13,6 +13,7 @@ header {
     background-image: url(./img/img1.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     max-width: 100%;
     height: auto;
     box-sizing: content-box;
@@ -24,9 +25,10 @@ header {
 }
 
 header h1,
-h2 {
+h2,
+a {
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
