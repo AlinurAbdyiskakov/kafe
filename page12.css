@@ -1,0 +1,18 @@
+button::shadow {
+    content: 'thank you';
+}
+
+form {
+    background-color: #fff;
+    padding: 10px;
+}
+
+@media (max-width:750px) {
+    form {
+        margin-top: 50px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+    }
+}
