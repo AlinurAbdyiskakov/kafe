@@ -1,5 +1,9 @@
 let comments = [];
-
+let btn = document.querySelector('button');
+const lo = () => {
+    alert('Спасибо за отзыв');
+}
+btn.addEventListener('click', lo);
 loadComments();
 document.getElementById('comment-add').onclick = function() {
     event.preventDefault();
@@ -18,7 +22,7 @@ document.getElementById('comment-add').onclick = function() {
     saveComments();
     showComments();
     console.log(comment);
-    comments.innerHTML = '';
+
 };
 
 
