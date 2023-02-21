@@ -1,3 +1,110 @@
+.adapevnosug {
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(167, 167, 167, 0.71);
+    margin-top: 26px;
+    border-radius: 20px;
+}
+
+.adapevnosug-edsa {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.adapevnosug-nasav:checked+.adapevnosug-kolas {
+    position: static;
+    opacity: 100;
+}
+
+.adapevnosug-kolas {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.adapevnosug-kolas img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.vealulu-kadsan {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #393939;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.vealulu-kadsan.prev {
+    left: 2%;
+}
+
+.vealulu-kadsan.next {
+    right: 2%;
+}
+
+.vealulu-kadsan:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #f3be81;
+}
+
+#adapevnosug-1:checked~.nedsug-1,
+#adapevnosug-2:checked~.nedsug-2,
+#adapevnosug-3:checked~.nedsug-3,
+#adapevnosug-4:checked~.nedsug-3 {
+    display: block;
+}
+
+.esamon-getusa {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.esamon-getusa li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.adapevnosug-bullet {
+    color: #393939;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.adapevnosug-bullet:hover {
+    color: #fff;
+}
+
+#adapevnosug-1:checked~.nedsug-1~.esamon-getusa li:nth-child(1) .adapevnosug-bullet,
+#adapevnosug-2:checked~.nedsug-2~.esamon-getusa li:nth-child(2) .adapevnosug-bullet,
+#adapevnosug-3:checked~.nedsug-3~.esamon-getusa li:nth-child(3) .adapevnosug-bullet,
+#adapevnosug-4:checked~.nedsug-3~.esamon-getusa li:nth-child(3) .adapevnosug-bullet {
+    color: #99f6ff;
+}
+
 * {
     margin: 0;
 }
@@ -7,6 +114,11 @@ body {
     height: max-content;
     width: 100%;
     height: 100%;
+    background-image: url(./img/img2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
 }
 
 header {
@@ -35,58 +147,6 @@ a {
     line-height: 40px;
     letter-spacing: -0.02em;
     text-shadow: 0 0 50px black;
-}
-
-aside {
-    margin-top: -15px;
-    background-image: url(./img/img2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    background-position: center;
-    height: auto;
-    box-sizing: content-box;
-    padding: 20px;
-    height: auto;
-}
-
-#div1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-#div1 img {
-    height: 189px;
-    width: 289px;
-}
-
-aside #div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-aside h1 {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-style: normal;
-    font-weight: 531;
-    font-size: 64px;
-    line-height: 75px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    animation-name: t1;
-    color: #FF0000;
-    margin-top: 20px;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-aside img {
-    max-width: 245px;
-    max-height: 145px;
-    margin: 20px 10px
 }
 
 @media (max-width: 885px) {
@@ -132,4 +192,12 @@ aside img {
     100% {
         font-size: 32px;
     }
+}
+
+footer h1 {
+    color: red;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px;
+    font-size: 42px;
 }
