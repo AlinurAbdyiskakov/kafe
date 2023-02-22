@@ -16,3 +16,66 @@ form {
         position: fixed;
     }
 }
+
+header {
+    background-image: url(./img/img1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    box-sizing: content-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header h1,
+h2 {
+    color: rgb(247, 222, 3);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 50px black;
+}
+
+* {
+    margin: 0;
+}
+
+;
+.tol {
+    position: fixed;
+    right: 20px;
+    bottom: 40%;
+    z-index: 111;
+}
+
+.tol .home {
+    width: 20px;
+    height: 50px;
+    z-index: 1;
+}
+
+@media (max-width: 885px) {
+    header h1,
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+#up {
+    animation-name: t1;
+    font-size: 64px;
+    margin: 20px;
+    margin: 0 auto;
+    color: red;
+    text-shadow: 0 0 30px black;
+    text-align: center;
+    z-index: 1;
+}
