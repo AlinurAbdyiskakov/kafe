@@ -2,9 +2,59 @@ body {
     background-color: #f3f2f3;
     margin: 0;
     padding: 0;
+    background-image: url(./img/img2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+.tol {
+    position: fixed;
+    right: 20px;
+    bottom: 40%;
+    z-index: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width: 885px) {
+    header h1,
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
 header {
+    background-image: url(./img/img1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    box-sizing: content-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header h1,
+h2 {
+    color: rgb(247, 222, 3);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 50px black;
+}
+
+aside {
     text-align: center;
 }
 
@@ -13,19 +63,23 @@ header {
 }
 
 li {
+    font-family: 'Times New Roman', Times, serif;
     list-style-type: none;
-    margin-bottom: 10px;
+    margin: 20px;
     background-color: #6929ca;
-    padding: 5px;
+    padding: 25px;
     border-radius: 10px;
     color: white;
     width: 50%;
+    font-size: 20px;
 }
 
 li span {
     font-style: italic;
     font-weight: bolder;
-    color: #b5b0b9;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
 }
 
 #chat {
@@ -45,16 +99,22 @@ li span {
 input {
     width: 70%;
     height: 30px;
+    border-radius: 15px;
 }
 
 button {
     width: 25%;
     height: 38px;
+    border-radius: 15px;
+    color: #f3f2f3;
+    background-color: #440c81;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 .sent {
     text-align: right;
-    background-color: #a79cb3;
     margin-left: 50%;
 }
 
