@@ -20,11 +20,18 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media (max-width: 885px) {
+.tol a {
+    color: blue;
+}
+
+@media(max-width:685px) {
     header h1,
     h2 {
         font-size: 20px;
         text-align: center;
+    }
+    .tol a {
+        color: #f3f2f3;
     }
 }
 
@@ -88,12 +95,16 @@ li span {
 }
 
 #message-form {
+    margin: 0 auto;
     text-align: center;
     position: fixed;
-    left: 0;
+    left: 10;
     bottom: 0;
-    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 85%;
     background-color: #b7b5b9;
+    border-radius: 5px;
 }
 
 input {
