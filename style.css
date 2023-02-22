@@ -144,8 +144,9 @@ a {
     color: rgb(247, 222, 3);
     font-family: 'Pacifico', cursive;
     font-style: normal;
-    font-weight: 700;
-    font-size: 34px;
+    font-weight: 800;
+    font-size: 44px;
+    margin: 0 5px;
     line-height: 40px;
     letter-spacing: -0.02em;
     text-shadow: 0 0 50px black;
