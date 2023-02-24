@@ -22,6 +22,10 @@ body {
     height: max-content;
     width: 100%;
     height: auto;
+    background-image: url(./page10/photo_2023-02-01_16-03-42.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
 }
 
 header {
@@ -53,10 +57,6 @@ h2 {
 aside {
     background-position: center;
     margin-top: -15px;
-    background-image: url(./page10/photo_2023-02-01_16-03-42.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
     height: auto;
     box-sizing: content-box;
     padding: 20px;

@@ -121,7 +121,8 @@ button {
     background-color: #440c81;
     font-weight: 800;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 12px;
+    padding: 5px;
 }
 
 .sent {
