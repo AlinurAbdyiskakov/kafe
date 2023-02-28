@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+    font-family: 'Pacifico', cursive;
 }
 
 * {
@@ -52,7 +53,7 @@ header {
 header h1,
 h2 {
     color: rgb(247, 222, 3);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -70,7 +71,7 @@ aside {
 }
 
 li {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Pacifico', cursive;
     list-style-type: none;
     margin: 20px;
     background-color: #6929ca;
@@ -85,7 +86,7 @@ li span {
     font-style: italic;
     font-weight: bolder;
     font-size: 22px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Pacifico', cursive;
     color: black;
 }
 
@@ -120,7 +121,7 @@ button {
     color: #f3f2f3;
     background-color: #440c81;
     font-weight: 800;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Pacifico', cursive;
     font-size: 12px;
     padding: 5px;
 }
