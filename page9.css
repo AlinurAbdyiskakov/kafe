@@ -27,6 +27,7 @@ body {
     background-size: cover;
     max-width: 100%;
     height: 100%;
+    font-family: 'Pacifico', cursive;
 }
 
 header {
@@ -78,6 +79,10 @@ aside #div1 {
     color: red;
     box-shadow: 0 0 10px black;
     text-align: center;
+}
+
+.list h1 {
+    font-family: 'Pacifico', cursive;
 }
 
 .list p {
